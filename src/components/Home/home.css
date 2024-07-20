@@ -89,6 +89,7 @@
   border-radius: 24px;
   padding: 32px;
   position: relative;
+  overflow: hidden;
 }
 
 .banner-box p {
@@ -102,17 +103,17 @@
   margin: 0;
   font-family: "Bricolage Grotesque", sans-serif;
 }
-/* .banner-box:before {
+.banner-box:before {
   content: "";
   position: absolute;
   left: 50%;
   top: 100%;
   transform: translate(-50%, -50%);
   background: #6b61ff;
-  width: 407px;
-  height: 200px;
-  filter: blur(200px);
-} */
+  width: 350px;
+  height: 150px;
+  filter: blur(100px);
+}
 .banner-box-title {
   display: flex;
   align-items: center;
@@ -125,4 +126,75 @@
 .banner-box-title p span {
   font-size: 20px;
   font-weight: 400;
+}
+
+/* Mobile Responsive CSS */
+@media (max-width: 768px) {
+  .banner-content {
+    padding: 50px 0;
+  }
+
+  .banner-title {
+    gap: 20px;
+  }
+
+  .banner-title h2 {
+    font-size: 32px;
+    line-height: 120%;
+  }
+
+  .banner-title p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .banner-title button {
+    height: 48px;
+    font-size: 14px;
+  }
+
+  .banner-content-box {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .banner-box {
+    width: 100%;
+    padding: 24px;
+  }
+
+  .banner-box p {
+    font-size: 24px;
+  }
+
+  .banner-box h2 {
+    font-size: 48px;
+  }
+
+  .banner-box-title p span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-title h2 {
+    font-size: 24px;
+  }
+
+  .banner-title p {
+    font-size: 12px;
+  }
+
+  .banner-title button {
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .banner-box p {
+    font-size: 20px;
+  }
+
+  .banner-box h2 {
+    font-size: 36px;
+  }
 }
