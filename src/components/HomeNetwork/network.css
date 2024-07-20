@@ -151,3 +151,85 @@
   background-size: cover;
   z-index: -1;
 }
+
+/* Media queries for medium screens */
+@media (max-width: 768px) {
+  .fan-network-content {
+    padding: 100px 0;
+  }
+
+  .fan-network-container {
+    gap: 40px;
+  }
+
+  .fan-network-title h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .fan-network-title p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .fan-network-box-container {
+    gap: 32px;
+    flex-direction: column;
+  }
+
+  .fan-network-box h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .fan-network-box p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .fan-network-box-btn button {
+    width: 200px;
+    height: 56px;
+    font-size: 16px;
+  }
+}
+/* Media queries for small screens */
+@media (max-width: 480px) {
+  .fan-network-content {
+    padding: 75px 0;
+  }
+
+  .fan-network-container {
+    gap: 30px;
+  }
+
+  .fan-network-title h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .fan-network-title p {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .fan-network-box-container {
+    gap: 25px;
+  }
+
+  .fan-network-box h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .fan-network-box p {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .fan-network-box-btn button {
+    width: 75%;
+    height: 52px;
+    font-size: 15px;
+  }
+}
