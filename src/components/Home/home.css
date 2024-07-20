@@ -1,0 +1,116 @@
+.banner-content {
+  padding: 100px 0;
+  text-align: center;
+  background: #1e1e1e;
+  position: relative;
+  background: url(../../assets/images/grid.png) no-repeat;
+  background-size: cover;
+  z-index: 9;
+}
+
+.banner-content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../assets/images/banner-focus.png) no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.banner-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.banner-title h2 {
+  font-size: 56px;
+  line-height: 150%;
+  background: -webkit-linear-gradient(left, #ffffff, #6b61ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 1054px;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: 700;
+}
+.banner-title p {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2%;
+  color: #d2d2d2;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.banner-title button {
+  background: #6c5ff5;
+  border-color: #6c5ff5;
+  max-width: 200px;
+  width: 100%;
+  height: 56px;
+  border-radius: 50px;
+  transition: all 0.5s;
+}
+.banner-title button:hover {
+  background: transparent;
+  border-color: #6c5ff5;
+  color: #6c5ff5;
+  transition: all 0.5s;
+}
+.banner-img img {
+  width: 100%;
+}
+
+.banner-content-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 40px;
+}
+
+.banner-box {
+  width: 50%;
+  background: #ffffff;
+  color: #1e1e1e;
+  text-align: start;
+  border-radius: 24px;
+  padding: 32px;
+  position: relative;
+}
+
+.banner-box p {
+  font-size: 32px;
+}
+
+.banner-box h2 {
+  font-size: 86px;
+}
+/* .banner-box:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  background: #6b61ff;
+  width: 407px;
+  height: 200px;
+  filter: blur(200px);
+} */
+.banner-box-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-box-title img {
+  width: 45px;
+  height: 45px;
+}
+.banner-box-title p span {
+  font-size: 20px;
+  font-weight: 400;
+}
