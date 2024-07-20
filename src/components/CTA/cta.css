@@ -13,6 +13,7 @@
   -webkit-text-fill-color: transparent;
   margin: 0;
   padding-bottom: 40px;
+  font-family: "Nohemi-Regular", sans-serif;
 }
 
 .call-to-action-container p {
@@ -23,4 +24,6 @@
   letter-spacing: 2%;
   line-height: 20px;
   color: #d2d2d2;
+  font-family: "Nohemi-ExtraLight", sans-serif;
+  font-weight: 200;
 }

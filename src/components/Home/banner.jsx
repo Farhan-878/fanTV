@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import bannerImg from "../../assets/images/banner.png";
 import plus from "../../assets/images/plus.png";
+import arrow from "../../assets/images/arrow-right.png";
 import "./home.css";
 
 const HomeBanner = () => {
@@ -15,7 +16,10 @@ const HomeBanner = () => {
               Join the world’s first DePIN: Revolutionizing Content Streaming
               with faster, Safer and Cheaper Access
             </p>
-            <Button>Coming Soon</Button>
+            <Button>
+              Coming Soon
+              <img src={arrow} alt="arrow" />
+            </Button>
           </div>
 
           <div className="banner-img" data-aos="zoom-in">

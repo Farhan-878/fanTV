@@ -28,6 +28,7 @@
   background: -webkit-linear-gradient(left, #ffffff, #999999);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "Nohemi-Regular", sans-serif;
 }
 
 .fan-network-title p {
@@ -35,7 +36,9 @@
   width: 100%;
   margin: 0 auto;
   font-size: 16px;
-  letter-spacing: 2%;
+  letter-spacing: 0.2px;
   line-height: 20px;
   color: #d2d2d2;
+  font-family: "Nohemi-ExtraLight", sans-serif;
+  font-weight: 200;
 }

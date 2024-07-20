@@ -68,9 +68,23 @@ button:focus-visible {
   }
 } */
 
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+
 @font-face {
-  font-family: "";
+  font-family: "Nohemi";
   src: url("./assets/font/nohemi-font-family/Nohemi-Black-BF6438cc565e67b.woff");
+}
+@font-face {
+  font-family: "Nohemi-Medium";
+  src: url("./assets/font/nohemi-font-family/Nohemi-Medium-BF6438cc5883899.ttf");
+}
+@font-face {
+  font-family: "Nohemi-Regular";
+  src: url("./assets/font/nohemi-font-family/Nohemi-Regular-BF6438cc4d0e493.ttf");
+}
+@font-face {
+  font-family: "Nohemi-ExtraLight";
+  src: url("./assets/font/nohemi-font-family/Nohemi-ExtraLight-BF6438cc57e06d5.otf");
 }
 * {
   margin: 0;
